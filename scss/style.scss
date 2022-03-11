@@ -1,0 +1,129 @@
+/* Estilos inicio */
+/* Fin estilos inicio */
+/* Estilos nueva york */
+/* Fin estilos nueva york */
+/* Estilos distritos */
+/* Fin estilos distritos */
+/* Estilos sobre nosotros */
+/* Fin estilos sobre nosotros */
+/* Estilos contacto */
+/* Fin estilos contacto */
+/* Estilos footer */
+/* Fin estilos footer */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background: 
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+	font-family: sans-serif;
+}
+#inicio {
+	background-color: rgb(245, 245, 245);
+	div {
+		border: none;
+	}
+}
+#nueva-york {
+	background-color: rgb(245, 245, 245);
+	padding: 20px;
+}
+#distritos {
+	background-color: rgb(245, 245, 245);
+	padding: 20px;
+	div {
+		border: none;
+	}
+}
+#sobre-nosotros {
+	background-color: rgb(245, 245, 245);
+	padding: 20px;
+}
+#contacto {
+	background-color: rgb(245, 245, 245);
+	padding: 20px;
+}
+.grid {
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	row-gap: 1em;
+	div {
+		border: 1px solid black;
+	}
+}
+.square-puente-estatua {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	div {
+		border: none;
+	}
+}
+.mapa {
+	h2 {
+		display: flex;
+		justify-content: center;
+	}
+	.map {
+		display: flex;
+		justify-content: center;
+	}
+}
+.grid-distritos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	h3 {
+		text-align: center;
+	}
+}
+.listas-f {
+	list-style-type: none;
+	display: inline;
+	margin: 10px;
+	list-style-type: none;
+	display: inline;
+	margin: 10px;
+}
+.listas-c {
+	list-style-type: none;
+	display: flex;
+	justify-content: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer {
+	padding: 5px;
+	background-color: black;
+}
+.cont-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	font-family: 'Playfair Display', serif;
+}
+.boton {
+	display: flex;
+	justify-content: center;
+	button {
+		color: black;
+	}
+}

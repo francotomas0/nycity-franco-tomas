@@ -9,13 +9,9 @@ body {
     font-family: sans-serif;
 }
 
-/* h1 {
-    text-align: center;
-    padding: 30px 0;
-} */
+
 
 #inicio, #nueva-york, #distritos, #sobre-nosotros, #contacto {
-    /* background-color: #d3d3d3; */
     background-color: rgb(245, 245, 245);
 }
 
@@ -24,17 +20,12 @@ body {
     margin: 0 auto;
     display: grid;
     row-gap: 1em;
-    /* border: 5px solid black; */
 }
 
 .grid div {
     border: 1px solid black;
 }
 
-
-/* Estilos Header */
-
-/* Fin estilos header */
 
 
 

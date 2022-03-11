@@ -1,0 +1,19 @@
+{
+  "name": "nycity-franco-tomas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francotomas0/nycity-franco-tomas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francotomas0/nycity-franco-tomas/issues"
+  },
+  "homepage": "https://github.com/francotomas0/nycity-franco-tomas#readme"
+}
