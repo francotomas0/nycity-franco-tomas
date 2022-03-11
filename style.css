@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+
+/* h1 {
+    text-align: center;
+    padding: 30px 0;
+} */
+
+#inicio, #nueva-york, #distritos, #sobre-nosotros, #contacto {
+    /* background-color: #d3d3d3; */
+    background-color: rgb(245, 245, 245);
+}
+
+.grid {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 1em;
+    /* border: 5px solid black; */
+}
+
+.grid div {
+    border: 1px solid black;
+}
+
+
+/* Estilos Header */
+
+/* Fin estilos header */
+
+
+
+/* Estilos inicio */
+.square-puente-estatua {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.mapa h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.mapa .map {
+    display: flex;
+    justify-content: center;
+}
+
+.square-puente-estatua div {
+    border: none;
+}
+
+#inicio div {
+    border: none;
+}
+/* Fin estilos inicio */
+
+
+
+/* Estilos nueva york */
+#nueva-york {
+    padding: 20px;
+}
+/* Fin estilos nueva york */
+
+
+
+/* Estilos distritos */
+#distritos {
+    padding: 20px;
+}
+
+.grid-distritos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-distritos h3 {
+    text-align: center;
+}
+
+#distritos div {
+    border: none;
+}
+/* Fin estilos distritos */
+
+
+
+/* Estilos sobre nosotros */
+#sobre-nosotros {
+    padding: 20px;
+}
+
+.listas-f {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+/* Fin estilos sobre nosotros */
+
+
+
+/* Estilos contacto */
+#contacto {
+    padding: 20px;
+}
+
+.listas-c {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Fin estilos contacto */
+
+
+
+/* Estilos footer */
+.footer {
+    padding: 5px;
+    background-color: black;
+}
+
+.cont-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.listas-f {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.boton button {
+    color: black;
+}
+/* Fin estilos footer */
+
+
+
+
+
